@@ -1,4 +1,4 @@
-###EventBus事件总线
+### EventBus事件总线
 
 原生开发中，时常遇到通知或广播机制，应对需要跨页面的事件通知。作为移动端跨平台框架的Flutter而已，也有同样的解决方案-EventBus，event_bus提供事件总线功能来实现一些状态的更新，核心是基于Dart Streams（流）；事件总线通常实现了订阅者模式，订阅者模式包含发布者和订阅者两种角色，可以通过事件总线来触发事件和监听事件，下面来通过更改主题颜色的案例认识下event_bus。
 
@@ -69,6 +69,7 @@ void dispose() {
 ![效果图](http://img.520lee.com/Fn-ENM-Qlb92xcqeBo1lZqDOfYko)
 
 1.案例github地址：https://github.com/Qson8/event_bus_demo
+
 2.event_bus插件地址：https://pub.dev/packages/event_bus
 
 了解学习更多关于Flutter技术，欢迎公众号： Hi Flutter，个人微信：qiukangsheng
